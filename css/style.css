@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   height: 100%;
   justify-content: center;
 }
@@ -104,37 +105,7 @@ body .encuadro .encuadro__parrafo {
   font-size: 12px;
   margin: 10px;
 }
-body .footer {
-  background-color: black;
-  color: white;
-  font-size: 7px;
-}
-body .footer .footer__lista {
-  list-style: none;
-  text-align: center;
-  padding: 1vh;
-  font-size: 15px;
-  line-height: 2rem;
-}
-body .footer .footer__wpp {
-  height: 10px;
-}
 @media (min-width: 600px) {
-  body .barra__logo {
-    margin-top: 7vh;
-  }
-  body .barra__logo--titulo {
-    font-size: 10vh;
-    animation-name: anime;
-  }
-  @keyframes anime {
-    0% {
-      margin-top: 0;
-    }
-    25% {
-      margin-top: 1;
-    }
-  }
   body .cardContainer {
     display: flex;
     flex-direction: row;
@@ -153,12 +124,6 @@ body .footer .footer__wpp {
   }
   body .encuadro .encuadro__texto {
     padding: 3vh;
-  }
-  body .barra__menu {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: center;
   }
 }
 
