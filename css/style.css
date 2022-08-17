@@ -10,12 +10,23 @@ body {
   justify-content: center;
 }
 
+.titulo {
+  text-align: center;
+  justify-content: center;
+  padding: 3vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.tituloPrincipal {
+  font-size: 30vh;
+}
+
 /* CARTAS */
 .cardContainer {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .cardContainer .card {
   width: 250px;
@@ -27,24 +38,21 @@ body {
   transition: all 400ms ease;
   text-align: center;
 }
-.cardContainer .card .card:hover {
-  transform: translateY(-10px);
-}
-.cardContainer .card .card__img {
+.cardContainer .card__img {
   width: 100%;
   height: 250px;
 }
-.cardContainer .card .card__titulo {
+.cardContainer .card__titulo {
   font-weight: 600;
 }
-.cardContainer .card .card__texto {
+.cardContainer .card__texto {
   margin: 15px;
   line-height: 1.5;
   padding: 0 1rem;
   font-size: 14px;
   font-weight: 200;
 }
-.cardContainer .card .card__link {
+.cardContainer .card__link {
   margin-bottom: 30;
   font-weight: 400;
   text-decoration: none;
@@ -52,25 +60,15 @@ body {
   border-radius: 4px;
   transition: all 400ms ease;
 }
-.cardContainer .card .card__link .card__link:hover {
-  color: rgb(92, 165, 249);
+
+.card:hover {
+  transform: translateY(-10px);
 }
-@media (min-width: 600px) {
-  .cardContainer .cardContainer {
-    display: flex;
-    flex-direction: row;
-  }
+
+.card__link:hover {
+  color: rgb(92, 165, 249);
 }
 
 /* FIN CARTAS */
-textoInfo {
-  margin: 5vh;
-}
-textoInfo tItitulo {
-  height: 2vh;
-}
-textoInfo tI2titulo {
-  height: 1.5vh;
-}
 
 /*# sourceMappingURL=style.css.map */

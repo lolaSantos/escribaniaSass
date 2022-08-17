@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lolaSantos/escribaniaSass/issues"
   },
-  "homepage": "https://github.com/lolaSantos/escribaniaSass#readme"
+  "homepage": "https://github.com/lolaSantos/escribaniaSass#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
