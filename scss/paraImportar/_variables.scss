@@ -1,5 +1,36 @@
+/* MAPS */
+
 $palette: (
   "primary": #8caefa,
   "secondary": #606e8e,
   "success": whitesmoke,
 );
+
+/* TEMINA MAPS */
+
+/* MIXING */
+
+@mixin coroles($fondo) {
+  background-color: $fondo;
+  width: 10vh;
+  height: 10vh;
+  margin: 5vh;
+}
+.mix-1 {
+  @include coroles(aqua);
+}
+.mix-2 {
+  @include coroles(blueviolet);
+}
+.mix-3 {
+  @include coroles(coral);
+}
+/* pongo esto aca porque solo agregue los cuadrados para mostrar un ejemplo de los mix */
+
+.ejMix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TERMINA MIXINGS */

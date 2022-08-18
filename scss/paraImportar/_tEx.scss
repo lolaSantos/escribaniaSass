@@ -1,0 +1,32 @@
+/* BOTON PDF */
+.botonEx {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5vh;
+  .botonEx_btn {
+    padding: 1vh 5vh;
+    border-radius: 20px;
+    border: map-get($palette, $key: "primary");
+    background-color: map-get($palette, $key: "primary");
+  }
+  .botonEx_a {
+    text-decoration: none;
+    color: map-get($palette, $key: "success");
+  }
+  .botonPdf_btn:hover {
+    transform: translateY(-10px);
+    transition: all 400ms ease;
+  }
+}
+/* BOTON PDF TERMINA */
+
+/* PDF */
+.tEx {
+  padding: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* PDF TERMINA */

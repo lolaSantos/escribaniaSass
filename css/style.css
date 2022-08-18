@@ -10,6 +10,39 @@ body {
   justify-content: center;
 }
 
+/* MAPS */
+/* TEMINA MAPS */
+/* MIXING */
+.mix-1 {
+  background-color: aqua;
+  width: 10vh;
+  height: 10vh;
+  margin: 5vh;
+}
+
+.mix-2 {
+  background-color: blueviolet;
+  width: 10vh;
+  height: 10vh;
+  margin: 5vh;
+}
+
+.mix-3 {
+  background-color: coral;
+  width: 10vh;
+  height: 10vh;
+  margin: 5vh;
+}
+
+/* pongo esto aca porque solo agregue los cuadrados para mostrar un ejemplo de los mix */
+.ejMix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* TERMINA MIXINGS */
+/* TITULOS */
 .titulo {
   text-align: center;
   justify-content: center;
@@ -21,6 +54,7 @@ body {
   font-weight: 10vh;
 }
 
+/* FIN TITULOS */
 /* CARTAS */
 .cardContainer {
   width: 100%;
@@ -70,5 +104,37 @@ body {
 }
 
 /* FIN CARTAS */
+/* BOTON PDF */
+.botonEx {
+  text-align: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.botonEx .botonEx_btn {
+  padding: 1vh 5vh;
+  border-radius: 20px;
+  border: #8caefa;
+  background-color: #8caefa;
+}
+.botonEx .botonEx_a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.botonEx .botonPdf_btn:hover {
+  transform: translateY(-10px);
+  transition: all 400ms ease;
+}
+
+/* BOTON PDF TERMINA */
+/* PDF */
+.tEx {
+  padding: 10vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* PDF TERMINA */
 
 /*# sourceMappingURL=style.css.map */
