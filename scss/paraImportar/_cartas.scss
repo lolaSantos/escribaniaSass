@@ -10,7 +10,7 @@
     margin: 40px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: map-get($palette, $key: "success");
     cursor: default;
     transition: all 400ms ease;
     text-align: center;
@@ -42,7 +42,7 @@
   transform: translateY(-10px);
 }
 .card__link:hover {
-  color: rgb(92, 165, 249);
+  color: map-get($palette, $key: "primary");
 }
 
 /* FIN CARTAS */
