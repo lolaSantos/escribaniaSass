@@ -53,10 +53,30 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 .titulo .tituloPrincipal {
-  font-weight: 10vh;
+  font-size: 10vh;
 }
 
 /* FIN TITULOS */
+/* REQUERIMENTOS */
+.req {
+  align-items: center;
+  justify-content: center;
+}
+.req .reqContainer {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5vh;
+  margin: 10vh;
+  border: solid 2px black;
+  border-radius: 30px;
+}
+.req .reqTitulo {
+  text-align: center;
+}
+.req .reqUl {
+  list-style: disc;
+}
+
+/* REQUERIMENTOS */
 /* CARTAS */
 .cardContainer {
   width: 100%;
@@ -106,40 +126,5 @@ body {
 }
 
 /* FIN CARTAS */
-/* BOTON  */
-.botonEx {
-  text-align: center;
-  justify-content: center;
-  margin-top: 5vh;
-}
-.botonEx .botonEx_btn {
-  padding: 1vh 5vh;
-  border-radius: 20px;
-  border: #8caefa;
-  background-color: #8caefa;
-}
-.botonEx .botonEx_a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-.botonEx .botonPdf_btn:hover {
-  transform: translateY(-10px);
-  transition: all 400ms ease;
-}
-
-/* BOTON  TERMINA */
-/* TEXTO EXPLICATIVO */
-.tEx {
-  padding: 10vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  border: solid 2px black;
-  border-radius: 30px;
-  margin: 10vh;
-}
-
-/* TEXTO EXPLICATIVO TERMINA */
 
 /*# sourceMappingURL=style.css.map */
