@@ -133,6 +133,9 @@ body {
   align-items: center;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  border: solid 2px black;
+  border-radius: 30px;
+  margin: 10vh;
 }
 
 /* PDF TERMINA */
