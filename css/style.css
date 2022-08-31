@@ -1,18 +1,101 @@
-/* Error: expected "{".
- *    ,
- * 12 |   .{alternativaSect_img
- *    |                        ^
- *    '
- *   scss\paraImportar\_variables.scss 12:24  @import
- *   scss\style.scss 2:9                      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 12 \2502    .{alternativaSect_img\d\a    \2502                         ^\a    \2575 \a   scss\\paraImportar\\_variables.scss 12:24  @import\a   scss\\style.scss 2:9                      root stylesheet';
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  height: 100%;
+  justify-content: center;
+}
+
+/* GLOBAL TERMINA */
+/* MAPS */
+/* TEMINA MAPS */
+/* TITULOS */
+.titulo {
+  text-align: center;
+  justify-content: center;
+  padding: 3vh;
+  margin-top: 5vh;
+  font-family: "Times New Roman", Times, serif;
+}
+.titulo .tituloPrincipal {
+  font-size: 6vh;
+}
+
+/* FIN TITULOS */
+/* REQUERIMENTOS */
+.req {
+  align-items: center;
+  justify-content: center;
+}
+.req .reqContainer {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5vh;
+  margin: 10vh;
+  border: solid 2px black;
+  border-radius: 30px;
+}
+.req .reqTitulo {
+  text-align: center;
+}
+.req .reqUl {
+  list-style: disc;
+}
+
+/* REQUERIMENTOS */
+/* CARTAS */
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardContainer .card {
+  width: 250px;
+  margin: 3vh;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: whitesmoke;
+  cursor: default;
+  transition: all 400ms ease;
+  text-align: center;
+}
+.cardContainer .card__img {
+  width: 100%;
+  height: 250px;
+}
+.cardContainer .card__titulo {
+  font-weight: 600;
+}
+.cardContainer .card__texto {
+  margin: 15px;
+  line-height: 1.5;
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 200;
+}
+.cardContainer .card__link {
+  margin-bottom: 30;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card__link:hover {
+  color: #8caefa;
+}
+
+/* FIN CARTAS */
+/* CARTA INFORMATIVA */
+
+/*# sourceMappingURL=style.css.map */
