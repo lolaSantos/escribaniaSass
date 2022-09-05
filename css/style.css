@@ -55,7 +55,7 @@ body {
   justify-content: center;
 }
 .cardContainer .card {
-  width: 250px;
+  width: 35vh;
   margin: 3vh;
   border-radius: 6px;
   overflow: hidden;
