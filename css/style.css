@@ -54,7 +54,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-.cardContainer .card {
+.cardContainer .carta {
   width: 35vh;
   margin: 3vh;
   border-radius: 6px;
@@ -64,21 +64,29 @@ body {
   transition: all 400ms ease;
   text-align: center;
 }
-.cardContainer .card__img {
-  width: 100%;
-  height: 250px;
+@media (min-width: 300px) and (max-width: 600px) {
+  .cardContainer .carta {
+    width: 95%;
+  }
 }
-.cardContainer .card__titulo {
+
+.card__img {
+  width: 100%;
+}
+
+.card__titulo {
   font-weight: 600;
 }
-.cardContainer .card__texto {
+
+.card__texto {
   margin: 15px;
   line-height: 1.5;
   padding: 0 1rem;
   font-size: 14px;
   font-weight: 200;
 }
-.cardContainer .card__link {
+
+.card__link {
   margin-bottom: 30;
   font-weight: 400;
   text-decoration: none;
@@ -87,7 +95,7 @@ body {
   transition: all 400ms ease;
 }
 
-.card:hover {
+.carta:hover {
   transform: translateY(-10px);
 }
 
