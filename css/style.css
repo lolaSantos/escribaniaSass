@@ -75,15 +75,7 @@ body {
 }
 
 .card__titulo {
-  font-weight: 600;
-}
-
-.card__texto {
-  margin: 15px;
-  line-height: 1.5;
-  padding: 0 1rem;
-  font-size: 14px;
-  font-weight: 200;
+  font-size: 3vh;
 }
 
 .card__link {
